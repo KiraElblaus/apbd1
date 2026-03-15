@@ -6,5 +6,9 @@ public class apbd1
     {
         Console.WriteLine("Second commit");
         List<int> numbers = new List<int>() { 1, 2, 3, 4, 5, 6, };
+        foreach (int number in numbers)
+        {
+            Console.WriteLine(number);
+        }
     }
 }
