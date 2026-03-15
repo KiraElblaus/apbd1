@@ -19,4 +19,9 @@ public class Program
         Console.WriteLine("Function was called");
         return nums.Average();
     }
+    
+    public int CalculateMax(List<int> nums)
+    {
+        return nums.Max();
+    }
 }
