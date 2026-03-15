@@ -13,4 +13,9 @@ public class Program
 
         int a = 19;
     }
+    
+    public double CalculateAverage(List<int> nums)
+    {
+        return nums.Average();
+    }
 }
