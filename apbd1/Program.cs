@@ -10,9 +10,7 @@ public class Program
         {
             Console.WriteLine(number);
         }
-    }
-    public static double CountAverage(List<int> numbers)
-    {
-        return numbers.Average();
+
+        int a = 19;
     }
 }
