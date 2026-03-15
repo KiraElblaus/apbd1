@@ -1,8 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-public class apbd1
+public class Program
 {
-    public static void Main()
+    public static void Main(string[] args)
     {
         Console.WriteLine("Second commit");
         List<int> numbers = new List<int>() { 1, 2, 3, 4, 5, 6, };
@@ -10,5 +10,9 @@ public class apbd1
         {
             Console.WriteLine(number);
         }
+    }
+    public static double CountAverage(List<int> numbers)
+    {
+        return numbers.Average();
     }
 }
