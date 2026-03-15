@@ -18,4 +18,9 @@ public class Program
     {
         return nums.Average();
     }
+    
+    public int CalculateMax(List<int> nums)
+    {
+        return nums.Max();
+    }
 }
