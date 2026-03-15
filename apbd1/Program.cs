@@ -16,6 +16,7 @@ public class Program
     
     public double CalculateAverage(List<int> nums)
     {
+        Console.WriteLine("Function was called");
         return nums.Average();
     }
 }
