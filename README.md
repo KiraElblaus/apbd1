@@ -1,0 +1,1 @@
+This merge was not a fast-forward merge because the main branch received a new, independent commit after the feature-max branch was created. Because the histories of the two branches diverged, Git could not simply move the main pointer forward. Instead, it had to perform a true merge (a 3-way merge) and create a dedicated 'merge commit' to combine the separate changes.
