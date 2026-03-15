@@ -22,6 +22,7 @@ public class Program
     
     public int CalculateMax(List<int> nums)
     {
+        Console.WriteLine("Function was called");
         return nums.Max();
     }
 }
