@@ -11,7 +11,7 @@ public class Program
             Console.WriteLine(number);
         }
 
-        int a = 19;
+        int c = 19;
     }
     
     public double CalculateAverage(List<int> nums)
